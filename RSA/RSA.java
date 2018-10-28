@@ -53,12 +53,12 @@ public static void main(String[] args)
 			}
 		}
 	}
-	System.out.println("value of e is:" +e);
-	System.out.println("value of phi is:" +phi);
-	System.out.println("value of d is:" +d);
+	System.out.println("The value of e is: " +e);
+	System.out.println("The value of phi is: " +phi);
+	System.out.println("The value of d is: " +d);
 	
-	System.out.println("value of public key is:{"+e+","+(p*q)+"}");
-	System.out.println("value of private key is:{"+d+","+(p*q)+"}");
+	System.out.println("The value of public key is:{"+e+","+(p*q)+"}");
+	System.out.println("The value of private key is:{"+d+","+(p*q)+"}");
 	BigInteger b1,b2,b3,b4;
 	b1=new BigInteger(M);
 	b2= BigInteger.valueOf(p*q);
@@ -67,11 +67,11 @@ public static void main(String[] args)
 	b4=b3.pow(d);
 	b4=b4.mod(b2);
 	
-	System.out.println("value of C is:"+b3);
-	System.out.println("value of M is:"+b4);
+	System.out.println("The value of C is:"+b3);
+	System.out.println("The value of M is:"+b4);
 
 
-}
+	}
 
 
 }
